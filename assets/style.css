@@ -1,0 +1,131 @@
+/* Fixed text across the whole document */
+/* Fixed text across the whole document */
+
+*{ /* Fixed text across the whole document */
+    font-family: “DejaVu Sans”, sans-serif; 
+}
+
+header{ /*header has been fixed to the top of the page, 3 links */
+    width: 100%;
+    background-color: rgb(3, 43, 39);
+    position:fixed;
+    top: 0;
+    left: 0;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(3, 43, 39);
+    position:fixed;
+    bottom: 0;
+    left: 0;
+}
+
+contact-form {
+    padding: 200px 0 0; /*sets the start of the body */
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 150%;
+}
+
+footer{
+    color: grey;
+    text-align: center;
+}
+
+section{
+    background-color: rgb(34, 34, 34);
+    
+}
+
+form{
+color: rgb(178, 178, 178);
+text-align: center;
+}
+
+#opm{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 00px;
+    top: 1500px;
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1500px;
+    width: 100%;;
+    height: 500px;
+    object-fit: cover;
+}
+
+contact-image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1500px;
+    width: 100%;;
+    height: 500px;
+    object-fit: cover;
+}
+body{
+    background-color: rgb(29, 29, 29);
+    padding: 150px 0 0; /*sets the start of the body */
+}
+
+h1{
+    color: white;
+    margin-left: 42%; /* try to figure out why there is a % difference */
+}
+
+ul{
+    
+    margin-left: 36%;
+}
+
+li{
+    color: aliceblue;
+    display:inline-block;
+    list-style-type: none;
+}
+
+span + span { /*creates space between elements */
+    margin-left: 20px;
+}
+
+
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: smaller;
+    font-weight: 200;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    
+    text-decoration: none;
+
+  }
+  
+  a:active {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
