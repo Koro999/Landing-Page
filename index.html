@@ -14,26 +14,41 @@
     </head>
 
     <body>
-    <header><!-- Need a header,this should be a navigation Bar -->
+    <header class="header"><!-- Need a header,this should be a navigation Bar -->
         <h1>Chris Dang</h1>
-        <nav > <!--Semantic Navigation Bar tag?-->
+        <br>
+        <h2>Illustrator.Full Stack Developer</h2>
+        <nav> <!--Semantic Navigation Bar tag?-->
             <ul>
-                <span>
-                    <li><h2><a href="index.html">Home</a></li></h2>
-                </span>
-                <span>
-                    <li><h2><a href="#">Link2</a></li></h2>
-                </span>
-                <span>
-                    <li><h2><a href="contact-form.html">Contact</a></h2></li>
-                </span>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#form">Contact</a></li>  
             </ul>
         </nav>
     </header>
 
-    <section>
+    <picture id="Portfolio">
         <img src="assets/chris-dang-concept-piece-loveless-avenue-ff7-2.jpeg" alt="cool concept art I made"> <!--need an image with a caption-->
-    </section>
+        <figcaption>Loveless Avenue ff7:R Concept Art</figcaption>
+    </picture>
+
+    <form class="contact-form" id="form">
+        <!--<img id="opm" src="assets/png-clipart-saitama-cartoon-one-punch-man-saitama-ok-memes-saitama-ok.png" alt="me"> need an image with a caption-->
+        <br>
+        <h3>Contact Me!</h3>
+            <form>
+                <label form="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label form="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+
+                <label form="email">E-mail:</label><br>
+                <input type="text" id="email" name="email"><br>
+
+                <button type="button">Send!</button>
+            </form>
+    </form>
 
       <footer><!--Need a footer -->
         <h6>2023, Chris Dang</h6>

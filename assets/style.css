@@ -2,15 +2,70 @@
 /* Fixed text across the whole document */
 
 *{ /* Fixed text across the whole document */
-    font-family: “DejaVu Sans”, sans-serif; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
 }
 
-header{ /*header has been fixed to the top of the page, 3 links */
+body{
+    background-color: rgb(29, 29, 29); /*sets the bg color of the webpage*/
+    /*padding: 150px 0 0; sets the start of the body */
+}
+
+
+.header{ /*header has been fixed to the top of the page, 3 links */
+    background-color: rgb(4, 28, 25);
+    color: whitesmoke;
+}
+
+.header h1 { /*set the h1 element in the header class to be an inline-block, also set font size*/
+    display: inline-block;
+    color: white;
+    font-size: 48px;
+    padding-left: 10px;
+}
+
+.header h2 { /*set the h1 element in the header class to be an inline-block, also set font size*/
+    display: inline-block; /* need to add a break and apply inline to keep navbar links in line */
+    color: rgb(35, 142, 108);
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.header nav { /*setting the top-padding and right-margin, have the buttons float right, set font size and family*/
+    display: inline-block;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight:bolder;
+}
+
+.header nav ul { /*remove the list style for better look, target the unordered list element*/
+    list-style-type: none;
+}
+
+.header nav ul li { /*make the li elements display inline, set a left-margin*/
+    display: inline-block;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+#Portfolio img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 1500px;
     width: 100%;
-    background-color: rgb(3, 43, 39);
-    position:fixed;
-    top: 0;
-    left: 0;
+    height: 500px;
+    object-fit: cover;
+}
+
+#Portfolio figcaption{
+    color: rgb(179, 179, 179);
 }
 
 footer{
@@ -21,11 +76,19 @@ footer{
     left: 0;
 }
 
-contact-form {
-    padding: 200px 0 0; /*sets the start of the body */
+.contact-form {
+    padding: 50px ; /*sets the start of the body */
+    width: 50%;
+    background-color: rgb(39, 39, 39);
+    color: rgb(178, 178, 178);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-h3{
+.contact-form h3{
     color: white;
     text-align: center;
     font-size: 150%;
@@ -35,72 +98,6 @@ footer{
     color: grey;
     text-align: center;
 }
-
-section{
-    background-color: rgb(34, 34, 34);
-    
-}
-
-form{
-color: rgb(178, 178, 178);
-text-align: center;
-}
-
-#opm{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 00px;
-    top: 1500px;
-    width: auto;
-    height: 200px;
-    object-fit: cover;
-}
-
-img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    top: 1500px;
-    width: 100%;;
-    height: 500px;
-    object-fit: cover;
-}
-
-contact-image{
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    top: 1500px;
-    width: 100%;;
-    height: 500px;
-    object-fit: cover;
-}
-body{
-    background-color: rgb(29, 29, 29);
-    padding: 150px 0 0; /*sets the start of the body */
-}
-
-h1{
-    color: white;
-    margin-left: 42%; /* try to figure out why there is a % difference */
-}
-
-ul{
-    
-    margin-left: 36%;
-}
-
-li{
-    color: aliceblue;
-    display:inline-block;
-    list-style-type: none;
-}
-
-span + span { /*creates space between elements */
-    margin-left: 20px;
-}
-
 
 a:link {
     color: rgb(255, 255, 255);
